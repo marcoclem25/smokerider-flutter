@@ -1,0 +1,32 @@
+name: smokerider_flutter
+description: SmokeRider Flutter MVP
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.3.0
+  google_maps_flutter: ^2.7.0
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+  flutter_google_places_sdk: ^0.4.2+1
+
+  # --- Firebase: versioni compatibili tra loro ---
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.1
+  cloud_firestore: ^6.0.0
+  webview_flutter: ^4.7.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
